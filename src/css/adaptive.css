@@ -1,0 +1,63 @@
+@media screen and (max-width: 642px) {
+    .modal > .modal-block {
+        height: auto;
+    }
+
+    .modal-block > .invite {
+        font-size: 20px;
+    }
+
+    .modal-block h2 {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+
+    .modal-block .info-block {
+        gap: 228px;
+        padding: 0;
+    }
+
+    .modal-block .speaker-photo {
+        width: 240px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-43%);
+    }
+
+    .modal-block .date-start {
+        grid: repeat(2, 50px) / 55px 136px;
+        padding-left: 41px;
+    }
+
+    .modal-block .block-content {
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .modal-block span.date__day {
+        font-size: 70px;
+    }
+
+    .modal-block span.date__month {
+        font-size: 35px;
+        padding-top: 29px;
+    }
+
+    .modal-block span.date__time {
+        font-size: 17px;
+        padding-top: 0;
+    }
+
+    .modal-block .btns-block {
+        margin-top: 32px;
+    }
+
+    .modal-block .ad-wrapper {
+        padding-top: 20px;
+        height: 40px;
+    }
+
+    .modal-block .ad {
+        font-size: 14px;
+    }
+}
