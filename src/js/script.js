@@ -13,6 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 sessionStorage.bannerWatched = true;
                 document.body.style.overflow = 'visible';
             });
+
+            const modalBtns = modal.querySelectorAll('.modal-btn');
+            modalBtns.forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.preventDefault();
+                    sessionStorage.bannerWatched = true;
+                    const href = e.target.getAttribute('href');
+                    location.href = href;
+                });
+            });
         }, 15000);
     }
 });
