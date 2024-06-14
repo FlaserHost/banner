@@ -181,3 +181,8 @@ button {
     right: 25px;
     cursor: pointer;
 }
+
+.modal-block .inn {
+    color: rgba(255, 255, 255, .7);
+    display: inline;
+}

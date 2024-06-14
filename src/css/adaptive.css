@@ -22,11 +22,11 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -43%);
+        transform: translate(-50%, -47%);
     }
 
     .modal-block .date-start {
-        grid: repeat(2, 50px) / 70px 97px;
+        grid: repeat(2, 50px) / 73px 97px;
         padding-left: 59px;
     }
 
@@ -41,7 +41,7 @@
 
     .modal-block span.date__month {
         font-size: 35px;
-        padding-top: 29px;
+        padding-top: 28px;
     }
 
     .modal-block span.date__time {
@@ -60,5 +60,9 @@
 
     .modal-block .ad {
         font-size: 14px;
+    }
+
+    .modal-block .speaker-info {
+        padding-left: 28px;
     }
 }
