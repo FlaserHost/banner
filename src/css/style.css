@@ -141,6 +141,8 @@ button {
     text-transform: uppercase;
     display: block;
     font-weight: 800;
+    position: relative;
+    z-index: 2;
 }
 
 .modal-block .date-start {
@@ -171,7 +173,7 @@ button {
     bottom: 40px;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 4;
 }
 
 .modal-block .modal-btn {
@@ -219,6 +221,15 @@ button {
     right: 0;
 }
 
+.mist {
+    position: absolute;
+    bottom: 20px;
+    width: 594px;
+    height: 477px;
+    right: 0;
+    background: radial-gradient(circle, rgba(183,196,254,1) 15%, transparent 68%);
+}
+
 .girls-img {
     position: absolute;
     bottom: 0;
@@ -226,4 +237,5 @@ button {
     left: 50%;
     transform: translateX(-50%);
     pointer-events: none;
+    z-index: 3;
 }

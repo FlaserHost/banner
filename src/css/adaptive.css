@@ -19,6 +19,11 @@
 }
 
 @media screen and (max-width: 778px) {
+    .modal-block > .invite,
+    .modal-block h2 {
+        font-size: 27px;
+    }
+
     .modal-block .date-start {
         font-size: 89px;
     }
@@ -28,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 622px) {
     .modal {
         padding: 0;
     }
@@ -46,12 +51,18 @@
         font-size: 29px;
     }
 
+    .modal-block .date-start {
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 426px) {
     .girls-img {
         height: 405px;
     }
 
-    .modal-block .date-start {
-        margin-bottom: -10px;
+    .mist {
+        width: 100%;
     }
 }
 
