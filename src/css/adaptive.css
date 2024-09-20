@@ -1,68 +1,87 @@
-@media screen and (max-width: 642px) {
+@media screen and (max-width: 888px) {
     .modal > .modal-block {
-        height: auto;
-    }
-
-    .modal-block > .invite {
-        font-size: 20px;
-    }
-
-    .modal-block h2 {
-        font-size: 30px;
-        margin-top: 2px;
-    }
-
-    .modal-block .info-block {
-        gap: 228px;
-        padding: 0;
-    }
-
-    .modal-block .speaker-photo {
-        width: 240px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -47%);
+        height: 100%;
     }
 
     .modal-block .date-start {
-        grid: repeat(2, 50px) / 73px 97px;
-        padding-left: 59px;
+        font-size: 125px;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .modal-block .date-start {
+        font-size: 115px;
     }
 
-    .modal-block .block-content {
-        justify-content: center;
-        margin-top: 0;
+    .modal-block .date-time {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .modal-block .date-start {
+        font-size: 89px;
     }
 
-    .modal-block span.date__day {
-        font-size: 70px;
+    .girls-img {
+        width: 624px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .modal {
+        padding: 0;
     }
 
-    .modal-block span.date__month {
-        font-size: 35px;
-        padding-top: 28px;
+    .modal-block .date-start {
+        font-size: 56px;
     }
 
-    .modal-block span.date__time {
-        font-size: 17px;
-        padding-top: 0;
+    .modal-block .date-time {
+        align-self: center;
     }
 
-    .modal-block .btns-block {
-        margin-top: 32px;
+    .modal-block > .invite,
+    .modal-block h2 {
+        font-size: 29px;
     }
 
-    .modal-block .ad-wrapper {
-        padding-top: 20px;
-        height: 40px;
+    .girls-img {
+        height: 405px;
     }
 
-    .modal-block .ad {
-        font-size: 14px;
+    .modal-block .date-start {
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .modal-block .date-start {
+        font-size: 55px;
     }
 
-    .modal-block .speaker-info {
-        padding-left: 28px;
+    .modal-block > .invite,
+    .modal-block h2 {
+        font-size: 27px;
+    }
+
+    .girls-img {
+        height: 405px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .modal-block .tags {
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .modal-block .date-start {
+        font-size: 46px;
+    }
+
+    .modal-block > .invite,
+    .modal-block h2 {
+        font-size: 24px;
     }
 }
